@@ -83,6 +83,12 @@ header {
   justify-content: center;
   align-items: center;
   gap: 0.625rem;
+  text-decoration: none;
+}
+
+.contact a {
+  color: #fff;
+  text-decoration: none;
 }
 
 .menu-items {
@@ -408,8 +414,9 @@ header {
   margin-left: 4.0625rem;
 }
 
-.about-inf-button1 > a {
+.about-inf-button1 a {
   text-decoration: none;
+  color:#0e0e0e;
 }
 
 .about-inf-button1:hover {
@@ -520,6 +527,11 @@ header {
 
 .read-text {
   margin-right: 0.5rem;
+}
+
+.read-text a {
+  text-decoration: none;
+  color: #fff;
 }
 
 .port-text4-text {
