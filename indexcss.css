@@ -9,7 +9,7 @@
 
 
 .container {
-  padding:50px 100px;
+  padding:3.125rem 6.25rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -17,52 +17,52 @@
 }
 
 header {
-  padding: 0 100px;
-  padding-top: 72px;
+  padding: 0 6.25rem;
+  padding-top: 4.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .logo-wrapper {
-  max-width: 120px;
+  max-width: 7.5rem;
   display: flex;
   color: #E2E2E2;
   color: #E2E2E2;
   font-family: Quicksand;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 24px;
-  letter-spacing: 0.2px;
-  height: 50px;
+  line-height: 1.5rem;
+  letter-spacing: .0125rem;
+  height: 3.125rem;
 }
 .logo-svg {
-  margin-right: 10px;
+  margin-right: .625rem;
 }
 .logo {
-  width: 72px;
-  height: 24px;
+  width: 4.5rem;
+  height: 1.5rem;
   color: #E2E2E2;
   font-family: Quicksand;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 24px;
-  letter-spacing: 0.2px;
-  margin-right: 267px;
+  line-height: 1.5rem;
+  letter-spacing: .0125rem;
+  margin-right: 16.6875rem;
 }
 
 .logo-subtitle {
-  width: 63px;
-  height: 20px;
+  width: 3.9375rem;
+  height: 1.25rem;
   color: #E2E2E2;
   font-family: Quicksand;
-  font-size: 16px;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  letter-spacing: 0.16px;
+  letter-spacing: .01rem;
 }
 
 .logo-title {
@@ -76,19 +76,19 @@ header {
 .contact {
   color: #E2E2E2;
   font-family: Quicksand;
-  font-size: 16px;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 24px;
-  letter-spacing: 0.16px;
+  line-height: 1.5rem;
+  letter-spacing: .01rem;
   display: flex;
-  padding: 12px 50px;
-  border-radius: 24px;
-  border: 1px solid #E2E2E2;
+  padding: .75rem 3.125rem;
+  border-radius: 1.5rem;
+  border: .0625rem solid #E2E2E2;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: .625rem;
 }
 
 
@@ -97,7 +97,7 @@ header {
 display: flex;
 justify-content: center;
 align-items: center;
-gap: 50px;
+gap: 3.125rem;
 }
 
 .menu-item {
@@ -107,11 +107,11 @@ gap: 50px;
 .menu-item a {
   color: #E2E2E2;
   font-family: Quicksand;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 24px;
-  letter-spacing: 0.18px;
+  line-height: 1.5rem;
+  letter-spacing: .0112rem;
   text-transform: capitalize;
   text-decoration: none;
   transition: all 0.5s;
@@ -123,49 +123,57 @@ gap: 50px;
 }
 
 .hero {
-  margin-top: 72px;
+  margin-top: 4.5rem;
 }
 
 .welcome {
   color: #E2E2E2;
   font-family: Nunito;
-  font-size: 64px;
+  font-size: 4rem;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
-  letter-spacing: 0.64px;
+  letter-spacing: .04rem;
   text-align: center;
+  width: 70%;
 }
+
+.welcome h3 {
+  margin-bottom: 2rem;
+}
+
+
 
 .welcome p {
   opacity: 0.6;
   color: #E2E2E2;
   font-family: Nunito;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 150%;
-  letter-spacing: 0.2px;
+  letter-spacing: .0125rem;
   text-align: center;
+  margin: 0.5rem;
+  
 }
 
 .welcome a{
   color: #0E0E0E;
   font-family: Quicksand;
-  font-size: 16px;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 24px;
-  letter-spacing: 0.16px;
+  line-height: 1.5rem;
+  letter-spacing: .01rem;
   display: inline-flex;
-  padding: 12px 50px;
-  border-radius: 24px;
-  box-shadow: 0px 4px 8px 0px rgba(55, 125, 255, 0.50);
+  padding: .75rem 3.125rem;
+  border-radius: 1.5rem;
+  box-shadow: 0rem .25rem .5rem 0rem rgba(55, 125, 255, 0.50);
   background: #E2E2E2;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: .625rem;
   text-decoration: none;
   transition: all 0.5s;
 }
@@ -176,7 +184,7 @@ gap: 50px;
 }
 
 .welcome-picture {
-  margin-top: 30px;
+  margin-top: 1.875rem;
   position: relative;
 }
 .welcome-picture svg {
@@ -184,39 +192,39 @@ gap: 50px;
 }
 
 .pic1 {
-  width: 739px;
-  height: 501px;
-  border-radius: 50px;
+  width: 46.1875rem;
+  height: 31.3125rem;
+  border-radius: 3.125rem;
   background: url(<path-to-image>), lightgray 50% / cover no-repeat, #333;
-  margin-left: 350px;
-  margin-top: 99px;
+  margin-left: 21.875rem;
+  margin-top: 6.1875rem;
 }
 
 .great {
   position: absolute;
-  top: 130px;
-  width: 175px;
-  height: 95px;
-  border-radius: 16px;
-  box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.15);
+  top: 8.125rem;
+  width: 10.9375rem;
+  height: 5.9375rem;
+  border-radius: 1rem;
+  box-shadow: 0rem .5rem 1.5rem 0rem rgba(0, 0, 0, 0.15);
   background: #0D0D0D;
-  margin-left: 243px;
+  margin-left: 15.1875rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  left: -350px;
-  top: 30px;
+  left: -21.875rem;
+  top: 1.875rem;
 }
 
 .wrap {
   display: flex;
   align-items: center;
-  margin-bottom: 7px;
+  margin-bottom: .4375rem;
 }
 
 .great-logo {
-  margin-right: 3px;
+  margin-right: .1875rem;
 }
 
 .great-wrapper {
@@ -229,11 +237,11 @@ gap: 50px;
 .great-subtitle {
   color: #E2E2E2;
   font-family: Nunito;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  letter-spacing: 0.24px;
+  letter-spacing: .015rem;
   text-align: center;
 
 }
@@ -242,35 +250,35 @@ gap: 50px;
   opacity: 0.5;
   color: #E2E2E2;
   font-family: Quicksand;
-  font-size: 12px;
+  font-size: .75rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  letter-spacing: 0.12px;
+  letter-spacing: .0075rem;
   text-align: center;
   text-transform: uppercase;
 }
 
 .author {
   position: absolute;
-  width: 166px;
-  height: 166px;
-  border-radius: 16px;
-  top: 350px;
-  right: -100px;
+  width: 10.375rem;
+  height: 10.375rem;
+  border-radius: 1rem;
+  top: 21.875rem;
+  right: -6.25rem;
   background-color: #0D0D0D;
 }
 
 .section-auth {
   display: flex;
   flex-direction: row;
-  margin-top: 31px;
+  margin-top: 1.9375rem;
 }
 
 .logo-author {
-  margin-left: 21px;
+  margin-left: 1.3125rem;
 
-  margin-right: 10px;
+  margin-right: .625rem;
 }
 
 .author-name1 {
@@ -280,52 +288,52 @@ gap: 50px;
 .author-title1 {
   color: #E2E2E2;
   font-family: Quicksand;
-  font-size: 10px;
+  font-size: .625rem;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  letter-spacing: 0.1px;
+  letter-spacing: .0063rem;
 }
 
 .author-subtitle1 {
   opacity: 0.5;
   color: #E2E2E2;
   font-family: Quicksand;
-  font-size: 6px;
+  font-size: .375rem;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  letter-spacing: 0.06px;
-  margin-top: 2px;
+  letter-spacing: .0037rem;
+  margin-top: .125rem;
 }
 
 .author-main1 {
-  width: 125px;
+  width: 7.8125rem;
   color: #E2E2E2;
   font-family: Quicksand;
-  font-size: 10px;
+  font-size: .625rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  letter-spacing: 0.1px;
-  margin-left: 21px;
-  margin-top: 12px;
+  letter-spacing: .0063rem;
+  margin-left: 1.3125rem;
+  margin-top: .75rem;
 }
 
 .about {
-  margin-top: 158px;
+  margin-top: 9.875rem;
 }
 
 .about-title {
   color: #E2E2E2;
   font-family: Quicksand;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 600;
-  line-height: 24px;
-  letter-spacing: 0.24px;
+  line-height: 1.5rem;
+  letter-spacing: .015rem;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 .about-subtitle {
@@ -335,13 +343,13 @@ gap: 50px;
 
 .about-pic-text {
   display: flex;
-  margin-top: 63px;
+  margin-top: 3.9375rem;
 }
 
 .about-pic {
   text-align: left;
-  margin-left: 100px;
-  margin-top: 38px;
+  margin-left: 6.25rem;
+  margin-top: 2.375rem;
   position: relative;
   z-index: 1;
   justify-content: left;
@@ -363,14 +371,14 @@ gap: 50px;
 
 .pointspic1 {
   position: absolute;
-  margin-top: -420px;
-  margin-left: -30px;
+  margin-top: -26.25rem;
+  margin-left: -1.875rem;
 }
 
 .pointspic2 {
   position: absolute;
-  margin-top: -65px;
-  margin-left: 500px;
+  margin-top: -4.0625rem;
+  margin-left: 31.25rem;
   
 }
 
@@ -383,16 +391,16 @@ gap: 50px;
 }
 
 .about-inf-text {
-  width: 610px;
+  width: 38.125rem;
   color: #E2E2E2;
   font-family: Quicksand;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 32px;
-  letter-spacing: 0.2px;
-  margin-top: 63px;
-  margin-left: 65px;
+  line-height: 2rem;
+  letter-spacing: .0125rem;
+  margin-top: 3.9375rem;
+  margin-left: 4.0625rem;
   text-align: left;
 }
 
@@ -402,21 +410,21 @@ gap: 50px;
 }
 
 .about-inf-button1 {
-  padding: 12px 50px;
-  border-radius: 24px;
-  box-shadow: 0px 4px 8px 0px rgba(55, 125, 255, 0.50);
+  padding: .75rem 3.125rem;
+  border-radius: 1.5rem;
+  box-shadow: 0rem .25rem .5rem 0rem rgba(55, 125, 255, 0.50);
   background: #E2E2E2;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 171px;
+  width: 10.6875rem;
   display: flex;
   justify-content: center;
   align-items: center;
   transition: all 0.5s;
   text-decoration: none;
-  margin-top: 36px;
-  margin-left: 65px;
+  margin-top: 2.25rem;
+  margin-left: 4.0625rem;
 }
 
 .about-inf-button1 > a {
@@ -431,20 +439,20 @@ gap: 50px;
 
 .img-title {
   color: #E2E2E2;
-  margin-left: 10px;
+  margin-left: .625rem;
 }
 
 .about-inf-button2 {
   display: flex;
-  padding: 12px 50px;
-  border-radius: 24px;
-  border: 1px solid #E2E2E2;
+  padding: .75rem 3.125rem;
+  border-radius: 1.5rem;
+  border: .0625rem solid #E2E2E2;
   justify-content: center;
   align-items: center;
-  line-height: 24px;
-  max-height: 45px;
-  margin-left: 25px;
-  width: 215px;
+  line-height: 1.5rem;
+  max-height: 2.8125rem;
+  margin-left: 1.5625rem;
+  width: 13.4375rem;
 }
 
 .about-inf-button2 > a {
@@ -466,24 +474,24 @@ gap: 50px;
 .about-text1 {
   color: #E2E2E2;
   font-family: Quicksand;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 600;
-  line-height: 24px;
-  letter-spacing: 0.24px;
+  line-height: 1.5rem;
+  letter-spacing: .015rem;
   text-align: center;
 }
 
 .about-text2 {
   color: #E2E2E2;
   font-family: Nunito;
-  font-size: 55px;
+  font-size: 3.4375rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  letter-spacing: 0.165px;
+  letter-spacing: .0103rem;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 
 .portfolio {
@@ -492,88 +500,88 @@ gap: 50px;
 
 .port1 {
   display: flex;
-  margin-top: 225px;
-  margin-left: 100px;
+  margin-top: 14.0625rem;
+  margin-left: 6.25rem;
 }
 
 .port-text1 {
   color: #E2E2E2;
   font-family: Quicksand;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 600;
-  line-height: 24px;
-  letter-spacing: 0.24px;
-  margin-bottom: 32px;
+  line-height: 1.5rem;
+  letter-spacing: .015rem;
+  margin-bottom: 2rem;
 }
 
 .port-text2 {
   color: #E2E2E2;
   font-family: Nunito;
-  font-size: 55px;
+  font-size: 3.4375rem;
   font-style: normal;
   font-weight: 700;
   line-height: 130%;
-  letter-spacing: 0.165px;
-  margin-bottom: 18px;
+  letter-spacing: .0103rem;
+  margin-bottom: 1.125rem;
 }
 
 .port-text3 {
-  width: 520px;
+  width: 32.5rem;
   color: #E2E2E2;
   font-family: Quicksand;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 32px;
-  letter-spacing: 0.2px;
-  margin-bottom: 36px;
+  line-height: 2rem;
+  letter-spacing: .0125rem;
+  margin-bottom: 2.25rem;
 }
 
 .port-text4 {
-  margin-left: 372px;
+  margin-left: 23.25rem;
 }
 
 .read-text {
-  margin-right: 8px;
+  margin-right: .5rem;
 }
 
 .port-text4-text {
   color: #E2E2E2;
   font-family: Quicksand;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 34px;
-  letter-spacing: 0.2px;
+  line-height: 2.125rem;
+  letter-spacing: .0125rem;
   display: flex;
 }
 
 .port-point {
-  margin-right: 100px;
-  margin-left: 155px;
+  margin-right: 6.25rem;
+  margin-left: 9.6875rem;
   display: flex;
   flex-direction: column;
-  gap: 38px;
+  gap: 2.375rem;
 }
 
 .ppfirst {
   display: flex;
-  gap: 41px;
+  gap: 2.5625rem;
 }
 
 .ppsecond {
   display: flex;
-  gap: 41px;
+  gap: 2.5625rem;
 }
 
 
 .port-point1 {
-  width: 262px;
-  height: 269px;
-  border-radius: 30px;
-  border: 1px solid rgba(255, 255, 255, 0.10);
-  box-shadow: 4px 4px 30px 0px rgba(0, 0, 0, 0.10);
+  width: 16.375rem;
+  height: 16.8125rem;
+  border-radius: 1.875rem;
+  border: .0625rem solid rgba(255, 255, 255, 0.10);
+  box-shadow: .25rem .25rem 1.875rem 0rem rgba(0, 0, 0, 0.10);
   background: #0B0F15;
   display: flex;
   align-items: center;
@@ -584,47 +592,47 @@ gap: 50px;
 
 .circle {
   background: #ff0000;
-  width: 100px;
-  height: 100px;
+  width: 6.25rem;
+  height: 6.25rem;
   border-radius: 100%;
   position: relative;
-  margin-bottom: 32px ;
+  margin-bottom: 2rem ;
 }
 
 
 
 .ppimg1 {
-  width: 100px;
-  height: 100px;
+  width: 6.25rem;
+  height: 6.25rem;
 }
 
 .ppimg11 {
   position: absolute;
   top: 0;
   left: 0;
-  margin-left: 81px;
-  margin-top: 35px;
+  margin-left: 5.0625rem;
+  margin-top: 2.1875rem;
 }
 
 .ppimg12 {
   position: absolute;
   top: 0;
   left: 0;
-  margin-left: 110px;
-  margin-top: 64px;
+  margin-left: 6.875rem;
+  margin-top: 4rem;
 }
 
 .ppimg2 {
-  width: 100px;
-  height: 100px;
+  width: 6.25rem;
+  height: 6.25rem;
 }
 
 .ppimg21 {
   position: absolute;
   top: 0;
   left: 0;
-  margin-left: 81px;
-  margin-top: 35px;
+  margin-left: 5.0625rem;
+  margin-top: 2.1875rem;
 }
 
 .ppimg22 {
@@ -642,16 +650,16 @@ gap: 50px;
   position: absolute;
   top: 0;
   left: 0;
-  margin-left: 81px;
-  margin-top: 52px;
+  margin-left: 5.0625rem;
+  margin-top: 3.25rem;
 }
 
 .ppimg32 {
   position: absolute;
   top: 0;
   left: 0;
-  margin-left: 110px;
-  margin-top: 81px;
+  margin-left: 6.875rem;
+  margin-top: 5.0625rem;
 }
 
 .ppimg4 {
@@ -662,59 +670,59 @@ gap: 50px;
   position: absolute;
   top: 0;
   left: 0;
-  margin-left: 81px;
-  margin-top: 52px;
+  margin-left: 5.0625rem;
+  margin-top: 3.25rem;
 }
 
 .ppimg42 {
   position: absolute;
   top: 0;
   left: 0;
-  margin-left: 110px;
-  margin-top: 81px;
+  margin-left: 6.875rem;
+  margin-top: 5.0625rem;
 }
 
 .pptext1 {
   color: #E2E2E2;
   font-family: Quicksand;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 34px;
-  letter-spacing: 0.24px;
+  line-height: 2.125rem;
+  letter-spacing: .015rem;
   text-align: center;
 }
 
 .pptext2 {
   color: #E2E2E2;
   font-family: Quicksand;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 34px;
-  letter-spacing: 0.24px;
+  line-height: 2.125rem;
+  letter-spacing: .015rem;
   text-align: center;
 }
 
 .pptext3 {
   color: #E2E2E2;
   font-family: Quicksand;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 34px;
-  letter-spacing: 0.24px;
+  line-height: 2.125rem;
+  letter-spacing: .015rem;
   text-align: center;
 }
 
 .pptext4 {
   color: #E2E2E2;
   font-family: Quicksand;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 34px;
-  letter-spacing: 0.24px;
+  line-height: 2.125rem;
+  letter-spacing: .015rem;
   text-align: center;
 }
 .red {
@@ -734,7 +742,7 @@ gap: 50px;
 }
 
 .port2 {
-  margin-top: 130px;
+  margin-top: 8.125rem;
 }
 
 .port2-title {
@@ -744,34 +752,34 @@ gap: 50px;
 .p2t1 {
   color: #E2E2E2;
   font-family: Quicksand;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 600;
-  line-height: 24px;
-  letter-spacing: 0.24px;
-  margin-bottom: 20px;
+  line-height: 1.5rem;
+  letter-spacing: .015rem;
+  margin-bottom: 1.25rem;
 }
 
 .p2t2 {
   color: #E2E2E2;
   font-family: Nunito;
-  font-size: 55px;
+  font-size: 3.4375rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  letter-spacing: 0.165px;
-  margin-bottom: 28px;
+  letter-spacing: .0103rem;
+  margin-bottom: 1.75rem;
 }
 
 .p2t3 {
   color: #E2E2E2;
   font-family: Quicksand;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 34px;
-  letter-spacing: 0.2px;
-  margin-bottom: 48px;
+  line-height: 2.125rem;
+  letter-spacing: .0125rem;
+  margin-bottom: 3rem;
 }
 
 .port2-subtitle {
@@ -802,20 +810,20 @@ gap: 50px;
 .port2-button a {
   color: #E2E2E2;
   font-family: Quicksand;
-  font-size: 16px;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 24px;
-  letter-spacing: 0.16px;
+  line-height: 1.5rem;
+  letter-spacing: .01rem;
   display: inline-flex;
-  padding: 12px 50px;
-  border-radius: 24px;
-  border: 1px solid #E2E2E2;
+  padding: .75rem 3.125rem;
+  border-radius: 1.5rem;
+  border: .0625rem solid #E2E2E2;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 10px;
-  margin-top: 34px;
+  gap: .625rem;
+  margin-top: 2.125rem;
   transition: all 0.5s;
   text-decoration: none;
 }
@@ -826,7 +834,7 @@ gap: 50px;
 }
 
 .testimonial {
-  margin-top: 196px;
+  margin-top: 12.25rem;
 }
 
 .testimonial-title {
@@ -836,38 +844,38 @@ gap: 50px;
 .test-title1 {
   color: #E2E2E2;
   font-family: Quicksand;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 600;
-  line-height: 24px;
-  letter-spacing: 0.24px;
-  margin-bottom: 20px;
+  line-height: 1.5rem;
+  letter-spacing: .015rem;
+  margin-bottom: 1.25rem;
   text-align: center;
 }
 
 .test-title2 {
   color: #E2E2E2;
   font-family: Quicksand;
-  font-size: 55px;
+  font-size: 3.4375rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  letter-spacing: 0.165px;
+  letter-spacing: .0103rem;
   text-align: center;
 }
 
 .testimonial-subtitle {
-  margin-top: 50px;
+  margin-top: 3.125rem;
   display: flex;
-  gap: 50px;
+  gap: 3.125rem;
   justify-content: center;
 }
 
 .testimonial-subtitle1 {
-  width: 380px;
-  height: 335px;
-  border-radius: 20px;
-  box-shadow: 0px 8px 24px 0px rgba(163, 163, 163, 0.05);
+  width: 23.75rem;
+  height: 20.9375rem;
+  border-radius: 1.25rem;
+  box-shadow: 0rem .5rem 1.5rem 0rem rgba(163, 163, 163, 0.05);
   background: #0B0F15;
 }
 
@@ -876,67 +884,67 @@ gap: 50px;
 }
 
 .name img {
-  margin-right: 30px;
-  margin-left: 40px;
-  margin-top: 49.25px;
+  margin-right: 1.875rem;
+  margin-left: 2.5rem;
+  margin-top: 3.0781rem;
 }
 
 .initialization {
-  margin-top: 55px;
+  margin-top: 3.4375rem;
 }
 
 .author-name {
   display: flex;
   flex-direction: column;
-  margin-top: 15px;
-  gap: 7px;
+  margin-top: .9375rem;
+  gap: .4375rem;
 }
 
 .author-title {
   color: #E2E2E2;
   font-family: Quicksand;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-style: normal;
   font-weight: 600;
-  line-height: 34px;
-  letter-spacing: 0.2px;
+  line-height: 2.125rem;
+  letter-spacing: .0125rem;
 }
 
 .author-subtitle {
   opacity: 0.5;
   color: #E2E2E2;
   font-family: Quicksand;
-  font-size: 11px;
+  font-size: .6875rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 34px;
-  letter-spacing: 0.11px;
-  margin-top: -6.25px;
+  line-height: 2.125rem;
+  letter-spacing: .0069rem;
+  margin-top: -0.3906rem;
 }
 
 .author-main {
-  width: 309px;
+  width: 19.3125rem;
   opacity: 0.8;
   color: #E2E2E2;
   font-family: Quicksand;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 28px;
-  letter-spacing: 0.18px;
-  margin-left: 40px;
-  margin-top: 25px;
+  line-height: 1.75rem;
+  letter-spacing: .0112rem;
+  margin-left: 2.5rem;
+  margin-top: 1.5625rem;
 }
 
 footer {
   background: #383638;
   width: 100%;
-  height: 548px;
-  margin-top: 149px;
+  height: 34.25rem;
+  margin-top: 9.3125rem;
 }
 
 .footer-inf {
-  padding-top: 132px;
+  padding-top: 8.25rem;
 }
 
 .footer-inf-st {
@@ -945,13 +953,13 @@ footer {
 }
 
 .footer-logo {
-  width: 187px;
-  height: 88px;
-  border-radius: 20px;
+  width: 11.6875rem;
+  height: 5.5rem;
+  border-radius: 1.25rem;
   background: #E2E2E2;
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: .625rem;
 }
 
 .logo-text {
@@ -961,65 +969,65 @@ footer {
 }
 
 .logo-title1 {
-  width: 72px;
-  height: 23.945px;
+  width: 4.5rem;
+  height: 1.4966rem;
   color: var(--Black-Color, #1D1D1D);
   font-family: Quicksand;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 24px;
-  letter-spacing: 0.2px;
+  line-height: 1.5rem;
+  letter-spacing: .0125rem;
 }
 
 .logo-subtitle1 {
-  width: 63px;
-  height: 19.954px;
+  width: 3.9375rem;
+  height: 1.2471rem;
   color: var(--Black-Color, #1D1D1D);
   font-family: Quicksand;
-  font-size: 16px;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  letter-spacing: 0.16px;
+  letter-spacing: .01rem;
 }
 
 .logo-img {
-  margin-top: 19px;
+  margin-top: 1.1875rem;
   
 }
 
 .footer-txt {
   color: #E2E2E2;
   font-family: Quicksand;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-style: normal;
-  line-height: 42px;
+  line-height: 2.625rem;
   
 }
 
 .ftterms {
-  font-size: 22px;
+  font-size: 1.375rem;
   
 }
 
 .footer-main {
   display: flex;
-  gap: 77px;
-  margin-right: 103px;
+  gap: 4.8125rem;
+  margin-right: 6.4375rem;
 }
 
 .circlefoot {
   background: #ffffff;
-  width: 40px;
-  height: 40px;
+  width: 2.5rem;
+  height: 2.5rem;
   border-radius: 100%;
   position: relative;
-  margin-bottom: 17px ;
+  margin-bottom: 1.0625rem ;
 }
 
 .footnav-line {
-  margin-top: 35px;
+  margin-top: 2.1875rem;
   display: flex;
   justify-content: center;
 }
@@ -1027,9 +1035,9 @@ footer {
 .footnav-img {
   display: flex;
   justify-content: center;
-  height: 24px;
-  gap: 40px;
-  margin-top: 76px;
+  height: 1.5rem;
+  gap: 2.5rem;
+  margin-top: 4.75rem;
   position: relative;
 }
 
@@ -1043,13 +1051,13 @@ footer {
 .footnav-text {
   color: #E2E2E2;
   font-family: Quicksand;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   display: flex;
   justify-content: center;
-  margin-top: 16px;
+  margin-top: 1rem;
 }
 
 /*доделать все кнопки
@@ -1057,7 +1065,7 @@ footer {
 прикрепить позиционирование по точкам */
 
 
-@media (max-width: 700px) {
+@media (max-width: 43.75rem) {
   .navbar {
     display: none;
   }
@@ -1067,22 +1075,22 @@ footer {
   }
 
   header {
-    padding: 40px 25px;
+    padding: 2.5rem 1.5625rem;
   }
 
   .welcome {
-    font-size: 28px;
+    font-size: 1.75rem;
 
     p {
-      font-size: 14px;
+      font-size: .875rem;
     }
   }
 
   .container {
-    padding: 0 22px;
+    padding: 0 1.375rem;
   }
 
   .welcome-pic {
-    width: 330px;
+    width: 20.625rem;
   }
 }
