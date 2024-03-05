@@ -328,11 +328,13 @@ header {
 .about-subtitle {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .about-pic-text {
   display: flex;
   margin-top: 3.9375rem;
+  
 }
 
 .about-pic {
@@ -485,6 +487,7 @@ header {
   display: flex;
   margin-top: 14.0625rem;
   margin-left: 6.25rem;
+  flex-wrap: wrap;
 }
 
 .port-text1 {
@@ -556,11 +559,13 @@ header {
 .ppfirst {
   display: flex;
   gap: 2.5625rem;
+  flex-wrap: wrap;
 }
 
 .ppsecond {
   display: flex;
   gap: 2.5625rem;
+  flex-wrap: wrap;
 }
 
 .port-point1 {
@@ -762,6 +767,8 @@ header {
 .port2-subtitle {
   justify-content: center;
   display: flex;
+  gap: 4rem;
+  flex-wrap: wrap;
 }
 
 .port2-button {
@@ -826,6 +833,7 @@ header {
   display: flex;
   gap: 3.125rem;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .testimonial-subtitle1 {
@@ -952,8 +960,11 @@ header {
 footer {
   background: #383638;
   width: 100%;
-  height: 34.25rem;
+  min-height: 34.25rem;
   margin-top: 9.3125rem;
+  display: flex;
+  justify-content: center;
+  padding: 2.5rem;
 }
 
 .footer-inf {
@@ -963,6 +974,7 @@ footer {
 .footer-inf-st {
   display: flex;
   justify-content: center;
+  
 }
 
 .footer-logo {
@@ -1025,6 +1037,7 @@ footer {
   display: flex;
   gap: 4.8125rem;
   margin-right: 6.4375rem;
+  flex-wrap: wrap;
 }
 
 .circlefoot {
@@ -1102,4 +1115,10 @@ footer {
   .welcome-pic {
     width: 20.625rem;
   }
+  
 }
+
+
+
+
+
